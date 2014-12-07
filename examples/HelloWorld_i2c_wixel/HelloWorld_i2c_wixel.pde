@@ -1,4 +1,12 @@
 /*
+Change log
+------------------------
+12-7-2014: Copied from source HelloWorld_ic2.pde file from
+ the LiquidTWI Arduio library to the HelloWorld_i2c_wixel.pde
+ in github.  Go to github to get more details about this code.
+ https://github.com/ProckNation/Wixel_Wireless_LCD
+From this line to the end of this comment block is unchanged from original
+
  Demonstration sketch for Adafruit i2c/SPI LCD backpack
  using MCP23008 I2C expander
  ( http://www.ladyada.net/products/i2cspilcdbackpack/index.html )
@@ -15,7 +23,7 @@
 
 // include the library code:
 #include <Wire.h>
-#include <LiquidTWI.h>
+#include <LiquidTWIWixel.h>
 
 // Connect via i2c, default address #0 (A0-A2 not jumpered)
 LiquidTWI lcd(0);
